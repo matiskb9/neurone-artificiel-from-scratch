@@ -11,3 +11,13 @@ Programmer un perceptron capable de classification binaire.
 - NumPy
 - Matplotlib
 - Scikit-learn (pour le dataset)
+
+## Installation locale
+1. Installer Python 3.x.
+2. Depuis le répertoire du projet :
+   ```powershell
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   pip install -r requirements.txt
+   ```
+3. Ouvrir `notebooks/01_neurone_artificiel.ipynb` avec Jupyter ou VS Code.
